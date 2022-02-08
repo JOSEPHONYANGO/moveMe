@@ -70,3 +70,11 @@
 #lsignup {
   display: none;
 }
+
+#btn2 {
+  float: left;
+}
+
+#btn3 {
+  float: right;
+}
