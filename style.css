@@ -4,26 +4,5 @@
   padding: 0;
 }
 
-.navbar {
-  height: 80px;
-  background: #a91010;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-evenly;
-}
 
-.navbar ul {
-  list-style: none;
-}
-
-.navbar ul li {
-  display: inline-block;
-  margin: 0 3vw;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: #ffff;
-}
 
