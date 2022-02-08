@@ -21,7 +21,7 @@
       </p>
       <div class="form-section">
         <span>Sign up</span>
-        <div class="form-outer-container">
+        <div class="form-outer-container" id="fsignup">
           <div class="form-inner-container">
             <label for="fname">First Name *</label><br />
             <input type="text" name="fname" id="fname" /><br />
@@ -32,7 +32,24 @@
           </div>
           <button class="btn-signup">Next</button>
         </div>
+        <div class="form-outer-container" id="lsignup">
+          <div class="form-inner-container">
+            <label for="upass">Enter a password *</label><br />
+            <input type="text" name="upass" id="upass" /><br />
+            <label for="pnumber">Phone number *</label><br />
+            <input
+              type="number"
+              placeholder="0712345678"
+              name="pnumber"
+              id="pnumber"
+            /><br />
+            <label for="town">The town you work in *</label><br />
+            <input type="text" name="town" id="town" />
+          </div>
+          <button class="btn-signup">Sign up</button>
+        </div>
       </div>
     </div>
+    <div class="bkg"></div>
   </body>
 </html>
