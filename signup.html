@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script src="js/Jquery.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
     <div class="container">
@@ -23,37 +25,42 @@
         <span>Sign up</span>
         <div class="form-outer-container" id="fsignup">
           <div class="form-inner-container">
-            <label for="fname">First Name *</label><br />
-            <input type="text" name="fname" id="fname" /><br />
-            <label for="lname">Last Name *</label><br />
-            <input type="text" name="lname" id="lname" /><br />
-            <label for="email">Your Email Address *</label><br />
-            <input type="email" name="email" id="email" />
+            <form class="formf" action="connect.php">
+              <label for="fname">First Name *</label><br />
+              <input class="finput" type="text" name="fname" id="fname" /><br />
+              <label for="lname">Last Name *</label><br />
+              <input class="finput" type="text" name="lname" id="lname" /><br />
+              <label for="email">Your Email Address *</label><br />
+              <input class="finput" type="email" name="email" id="email" />
+            </form>
           </div>
           <button id="btn1" class="btn-signup">Next</button>
         </div>
+
         <div class="form-outer-container" id="lsignup">
           <div class="form-inner-container">
-            <label for="upass">Enter a password *</label><br />
-            <input type="text" name="upass" id="upass" /><br />
-            <label for="pnumber">Phone number *</label><br />
-            <input
-              type="number"
-              placeholder="0712345678"
-              name="pnumber"
-              id="pnumber"
-            /><br />
-            <label for="town">The town you work in *</label><br />
-            <input type="text" name="town" id="town" />
+            <form class="formf">
+              <label for="upass">Enter a password *</label><br />
+              <input class="finput" type="text" name="upass" id="upass" /><br />
+              <label for="pnumber">Phone number *</label><br />
+              <input
+                class="finput"
+                type="number"
+                placeholder="0712345678"
+                name="pnumber"
+                id="pnumber"
+              /><br />
+              <label for="town">The town you work in *</label><br />
+              <input class="finput" type="text" name="town" id="town" />
+            </form>
           </div>
           <div class="btns">
-            <button class="btn-signup" id="btn2">Sign up</button
-            ><button class="btn-signup" id="btn3">Back</button>
+            <button type="submit" class="btn-signup" id="btn2">Sign up</button
+            ><button type="reset" class="btn-signup" id="btn3">Back</button>
           </div>
         </div>
       </div>
     </div>
     <div class="bkg"></div>
-    <script src="script.js"></script>
   </body>
 </html>
