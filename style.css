@@ -37,6 +37,11 @@
   height: 58vh;
   padding: 6.7%;
   margin-top: 4%;
+  box-shadow: 3px 3px #bdb6b6;
+}
+
+.form-inner-container {
+  margin-left: 1.7%;
 }
 
 .form-inner-container input {
@@ -44,6 +49,12 @@
   height: 5vh;
   margin: 4% 0;
   border: none;
+}
+
+.form-inner-container input:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
 }
 
 .btn-signup {
@@ -55,6 +66,7 @@
   font-size: large;
   border: 0;
   margin-top: 0.7rem;
+  margin-left: 1.7%;
 }
 
 .bkg {
@@ -77,4 +89,5 @@
 
 #btn3 {
   float: right;
+  margin-right: 1.7%;
 }
