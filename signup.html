@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/Jquery.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        Join Our Team <br />
+        Of Movers Now
+      </p>
+      <div class="form-section">
+        <span>Sign up</span>
+        <div class="form-outer-container" id="fsignup">
+          <div class="form-inner-container">
+            <form class="formf" action="connect.php">
+              <label for="fname">First Name *</label><br />
+              <input class="finput" type="text" name="fname" id="fname" /><br />
+              <label for="lname">Last Name *</label><br />
+              <input class="finput" type="text" name="lname" id="lname" /><br />
+              <label for="email">Your Email Address *</label><br />
+              <input class="finput" type="email" name="email" id="email" />
+            </form>
+          </div>
+          <button id="btn1" class="btn-signup">Next</button>
+        </div>
+
+        <div class="form-outer-container" id="lsignup">
+          <div class="form-inner-container">
+            <form class="formf">
+              <label for="upass">Enter a password *</label><br />
+              <input class="finput" type="text" name="upass" id="upass" /><br />
+              <label for="pnumber">Phone number *</label><br />
+              <input
+                class="finput"
+                type="number"
+                placeholder="0712345678"
+                name="pnumber"
+                id="pnumber"
+              /><br />
+              <label for="town">The town you work in *</label><br />
+              <input class="finput" type="text" name="town" id="town" />
+            </form>
+          </div>
+          <div class="btns">
+            <button type="submit" class="btn-signup" id="btn2">Sign up</button
+            ><button type="reset" class="btn-signup" id="btn3">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bkg"></div>
+  </body>
+</html>
