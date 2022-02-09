@@ -31,6 +31,7 @@ $(document).ready(function () {
     $("#lsignup").css({ display: "none" });
     $("#fsignup").css({ display: "block" });
     $(".formf").trigger("reset");
+    $("input").css({ border: "none", boxShadow: "none" });
   });
   $("#btn2").click(function (event) {
     var upass = $("input[name='upass']").val();
@@ -54,6 +55,8 @@ $(document).ready(function () {
         borderColor: "#a91010",
         boxShadow: "0 0 10px #a91010",
       });
+    } else {
+      alert("success we'll notify you if you qualify");
     }
   });
   $(myArray[0]).click(function (event) {
