@@ -1,4 +1,19 @@
 $(document).ready(function () {
+  $("#pickupBtn").click(function(){
+    $("#page2-1").css({display: "none"})
+    $("#destination").css({display: "block"})
+   
+  })
+  $("#destinationBtn").click(function(){
+    $("#page2-1").css({display: "none"})
+    $("#destination").css({display: "block"})
+   
+  })
+  $("#requestBtn").click(function(){
+    $("#page2-1").css({display: "none"})
+    $("#destination").css({display: "block"})
+   
+  })
   var myArray = [fname, lname, email, upass, pnumber, town];
   $("#btn1").click(function (event) {
     var fname = $("input[name='fname']").val();

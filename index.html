@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="js/Jquery.js"></script>
+    <script src="js/script.js"></script>
     <title>MOVEME</title>
   </head>
   <body>
@@ -21,7 +23,72 @@
       </section>
 
       <!-- PAGE 2 -->
-      <section id="page2"></section>
+      <section id="page2">
+        <div id="page2-1">
+          <h2 class="heading2">Request a mover now</h2>
+          <div class="btn">
+            <button id="pickupBtn"><p>Enter pickup location</p></button>
+            <button id="destinationBtn"><p>Enter destination</p></button>
+          </div>
+          <div class="request">
+            <div id="requestBtn" class="destination">
+              <p><span class="dot"></span>Request now</p>
+            </div>
+            <img src="images/move.jpg" alt="" />
+          </div>
+        </div>
+        <div id="pickupLocation" class="currentlocation">
+          <label for="pickup">Moving From*</label><br />
+          <input
+            type="text"
+            id="pickup"
+            placeholder="current location/zip-code"
+          /><br />
+          <button class="pickup1"><p>Submit</p></button>
+        </div>
+        <div id="destination" class="dest">
+          <label for="dropoff">Moving To*</label><br />
+          <input type="text" id="dropoff" placeholder="Destination" /><br />
+          <button class="dropoff1">Submit</button>
+        </div>
+        <div id="request" class="request-form">
+          <ul>
+            <li>
+              <label for="name">Name*</label><br />
+              <input type="text" id="name" placeholder="Full Name" />
+            </li>
+            <li>
+              <label for="pickup">Moving From*</label><br />
+              <input
+                type="text"
+                id="pickup"
+                placeholder="current location/zip-code"
+              />
+            </li>
+            <li>
+              <label for="dropoff">Moving To*</label><br />
+              <input type="text" id="dropoff" placeholder="Destination" />
+            </li>
+            <li>
+              <label for="property">Property type*</label><br />
+              <input
+                type="text"
+                id="property"
+                placeholder="house/office items..."
+              />
+            </li>
+            <li>
+              <label for="size">Size*</label><br />
+              <input type="text" id="size" placeholder="" />
+            </li>
+            <li>
+              <label for="date">Moving Date*</label><br />
+              <input type="text" id="date" placeholder="12/12/2022" />
+            </li>
+          </ul>
+          <button class="request1"><p>Request</p></button>
+        </div>
+      </section>
 
       <!-- PAGE3 -->
       <section id="page3"></section>
