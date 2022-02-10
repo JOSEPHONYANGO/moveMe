@@ -215,45 +215,43 @@
 .attributes .about3 h3{
   margin-top: 25px;
 }
-footer{
-  width: 100%;
-  height: auto;
-  background: #aa2d15;
+/* updated footer */
+.footer {
   display: flex;
-  flex-direction: row;
-  padding: 15px;
-  height: 130px;
-  justify-content: space-around;
-  margin-top: 50px;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+  background-color: #A91010;
+  padding: 5%;
 }
-footer a{
+.upper-pose-footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding-left: 5%;
+}
+.moveme ul li,
+.product ul li,
+.helpcentre ul li {
+  list-style: none;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+.helpcentre span {
+  height: 1rem;
+}
+.moveme ul li a,
+.helpcentre ul li a,
+.product ul li a {
   text-decoration: none;
-  color: #f1f1f1;
+  color: #ffff;
 }
-footer a:hover{
-  color: blue;
+.copyright {
+  margin-top: 2rem;
 }
-footer ul li{
-  list-style-type: none;
-}
-.socials{
-  margin-top: 10px;
-}
-.copyright{
-  background:#aa2d15;
-  padding: 10px;
+.copyright a {
+  color: #ffff;
+  text-decoration: none;
   text-align: center;
-  padding:20px;
 }
-.copyright a{
-  text-decoration: none;
-  color: #f1f1f1;  
-}
-.copyright a:hover{
-  color: blue;
-}
-.copyright{
-  margin-top: -10px;
-}
-
 >>>>>>> 09edcf4980d9147c3cf365495a93a6c49b10e64c
