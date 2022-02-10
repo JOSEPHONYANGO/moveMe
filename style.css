@@ -155,3 +155,70 @@ footer ul li{
   margin-top: -10px;
 }
 
+
+/* section 3 Amiani */
+.page3 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  padding: 0 10%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.page3 h1 {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.profile-image {
+  border-radius: 50%;
+  background-size: cover;
+}
+.pics {
+  height: 1.5rem;
+}
+.logos {
+  width: 35vw;
+}
+.box-outer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial-box-container {
+  background-color: #BDB6B6;
+  height: auto;
+  width: 40vw;
+  padding: 5%;
+  margin-right: 5vw;
+}
+.rating {
+  display: flex;
+}
+.profile {
+  display: flex;
+}
+.box-top {
+  display: flex;
+  flex-direction: column;
+}
+.rating {
+  margin-bottom: 3vh;
+}
+.checked{
+    color: yellow;
+}
+.reviews {
+  float: right;
+  margin: 0 5vw;
+}
+.location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5vh;
+  margin-top: 3vh;
+}
+.lcotion {
+  height: 1.5rem;
+}  
