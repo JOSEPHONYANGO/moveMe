@@ -4,106 +4,104 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-header{ 
-  background-image:url()
-} 
+header {
+  background-image: url();
+}
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 100px;
+  background-color: #aa2d15;
+}
 
-#nav{
-  padding: 80px 5x 80px 5px;
+.logo1 {
+  font-size: 32px;
+  color: #f1f1f1;
 }
-.nav-tab{
-flex:10px;
-text-align: center;
-background-color: red;
-height:100px;
-padding-top: 20px;
-padding-right: 30px;
-}
-.nav-tab ul li{
-    justify-content: center;
-    margin: bottom 0px;
-    list-style: none;
-    padding:10px 30px;
-    text-align:left;
-    display:inline-block;
-    position:relative
-  }
-  .nav-tab ul li a{
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-  }
-  .nav-tab-page::after{
-        content:'';
-        width: 100%;
-        height:4px;
-        background:none;
-        display: block;
-        margin:auto
-}
- .move{
-        margin-right: 30px;
-        justify-content: right;
-        text-align: left;
-        margin-bottom: 0px;
-        height: 4px;
-  }
-  .message{
-        text-align: center;
-        /* padding: -50%; */
-        
-        font-weight: bold;
-        font-size: large;
-        font-style: normal;
-        margin-top: -30%;
-        font-size: 60px;
-     
-        color: white;
-        display: flex;
-        justify-content: space-around;
 
-    }
-    .message img{
-        /* margin-top: 60%;
-        float: left;
-        padding-left: 20%; */
-        margin-right:30%;
-        /* border: 2px solid red; */
-        width: 180px;
-        height: 70px;
-        border-radius: 50px;
-        /* background-color: red; */
-        margin-top: 100px;
-        padding: 20px;
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5vw;
+}
 
-  }
-  .message p {
-  margin-left: 30%;
-  }
-  .sign{
-  background-color: seashell;
-  margin-left: 5%;
-  border-radius: 25px;
-  float: right;
-  padding: 10px 20px 10px 20px;
-    
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffff;
 }
-.sign a{
-text-decoration: none;
+
+.navbar ul li a:hover {
+  color: #719ece;
 }
-.image{
-width: 100%;
-height: 750px;
-padding-top: 0px;
-margin-top: -16px;
-        /* margin-bottom: 100%; */
-        
+
+.buttonSup {
+  height: 2.5rem;
+  width: 7rem;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #aa2d15;
 }
-.arrow{
-background: white;
-border: 2px solid black;
+
+.buttonSup:hover {
+  background-color: #719ece;
 }
+
+.move {
+  margin-right: 30px;
+  justify-content: right;
+  text-align: left;
+  margin-bottom: 0px;
+  height: 4px;
+}
+
+.message {
+  background-color: rgba(17, 16, 16, 0.24);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.fa-bus {
+  font-size: 100px;
+  color: #f1f1f1;
+}
+
+.message p {
+  color: #f1f1f1;
+  font-size: 28px;
+}
+
+.hero1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70vw;
+}
+
+.arr {
+  background-color: #aa2d15;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.image {
+  position: absolute;
+  margin-top: 100px;
+  z-index: -1;
+}
+
 .container p {
   float: left;
   font-size: 32px;
@@ -200,7 +198,7 @@ border: 2px solid black;
   float: right;
   margin-right: 1.7%;
 }
-<<<<<<< HEAD .cards {
+.cards {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -217,7 +215,7 @@ border: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: ;
+  margin-left: 0;
 }
 .row {
   margin: 0 -5px;
@@ -244,7 +242,7 @@ border: 2px solid black;
     margin-bottom: 20px;
   }
 }
-======= .attributes {
+.attributes {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -256,7 +254,9 @@ border: 2px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 10vh;
+  margin-top: 3vh;
+  height: 35vh;
 }
 .download > h3 {
   padding-right: 360px;
@@ -347,23 +347,21 @@ p {
   text-decoration: none;
   text-align: center;
 }
->>>>>>> 09edcf4980d9147c3cf365495a93a6c49b10e64c
 
 /* martin section 2 */
- button {
-  border-radius: 30px;
-  height: 50px;
-  width: 30vw;
-  background-color: #a0351d;
-  color: white;
-  /* -webkit-transition-duration: 0.3s; */
-  border: none;
+
+#page2 {
+  padding: 7% 0;
+}
+
+#page2-1 h2 {
+  margin-bottom: 2rem;
 }
 
 .btn button {
-  border-radius: 30px;
+  border-radius: 10px;
   height: 50px;
-  width: 25vw;
+  width: 50vw;
   background-color: #a0351d;
   color: white;
   /* -webkit-transition-duration: 0.3s; */
@@ -382,7 +380,7 @@ p {
 
 .btn {
   padding-left: 200px;
-  width: 25vw;
+  width: 60vw;
   display: flex;
   justify-content: space-between;
 }
@@ -391,8 +389,8 @@ p {
   color: white;
 }
 
-.btn:first-child {
-  margin-right: 100px;
+#requestBtn {
+  cursor: pointer;
 }
 
 .dot {
@@ -427,6 +425,10 @@ p {
   text-decoration: none;
   color: black;
   font-size: 30px;
+}
+
+.request-form ul {
+  margin-left: 3rem;
 }
 
 .request-form ul li {
@@ -486,7 +488,7 @@ p {
   margin-left: 500px;
   background-color: #c4c4c4;
   width: 500px;
-  height: 200px;
+  height: 350px;
   padding-left: 60px;
 }
 .dropoff1 p {
@@ -511,18 +513,18 @@ button {
 /* pickup */
 .currentlocation {
   margin-top: 80px;
-  padding-top: 50px;
+  padding-top: 120px;
   margin-left: 500px;
   background-color: #c4c4c4;
   width: 500px;
-  height: 200px;
+  height: 350px;
   padding-left: 60px;
 }
 
 #pickup {
   margin-bottom: 15px;
   width: 400px;
-  height: 25px;
+  height: 35px;
 }
 .pickup1 p {
   text-decoration: none;
@@ -558,7 +560,7 @@ button {
 #dropoff {
   margin-bottom: 15px;
   width: 400px;
-  height: 25px;
+  height: 35px;
 }
 #property {
   margin-bottom: 15px;
@@ -608,4 +610,78 @@ button {
 #request,
 #pickupLocation {
   display: none;
+}
+
+/* page 3 amiani */
+.page3 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  padding: 0 10%;
+  margin-top: 5vh;
+  margin-bottom: 500px;
+}
+.page3 h1 {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  font-size: 36px;
+}
+.profile-image {
+  /* border-radius: 50%; */
+  background-size: cover;
+}
+.pics {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.logos {
+  width: 35vw;
+}
+.box-outer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial-box-container {
+  background-color: #bdb6b6;
+  height: auto;
+  width: 40vw;
+  padding: 5%;
+  margin-right: 5vw;
+}
+.rating {
+  display: flex;
+}
+.profile {
+  display: flex;
+}
+.box-top {
+  display: flex;
+  flex-direction: column;
+}
+.rating {
+  margin-bottom: 3vh;
+}
+.checked {
+  color: yellow;
+}
+.reviews {
+  float: right;
+  margin: 0 5vw;
+}
+.location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5vh;
+  margin-top: 3vh;
+}
+.lcotion {
+  height: 1.5rem;
+}
+
+#bkgMain {
+  z-index: -1;
 }

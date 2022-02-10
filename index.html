@@ -5,124 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="js/Jquery.js"></script>
+    <script src="js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ae51af2ab9.js"
+      crossorigin="anonymous"
+    ></script>
     <title>MOVEME</title>
-<<<<<<< HEAD
-</head>
-<body>
-    <header>
-        <div id="nav">        
-            <div class="nav-tab">
-                <ul>
-                     <div class="move">
-                        <li><a href="index.html">moveMe</a></li> 
-                     </div>
-                    <li class="nav-tab-page"><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Contact</a></li>
-                    <li><a href="index.html">About</a></li>
-                    <div class="sign">
-                        <a href="index.html">Sign up</a>
-                    </div>
-                </ul>
-            </div>
-        </div>  
-       </header>
-<div class="image">
-     <img src="images/mover.jpg" width="100%" height="100%">
-    </div>
-       <div class="message">
-        <p> Become a <br> mover now</p>
-        <img src="images/arrow.png">
-       </div>
-=======
   </head>
   <body>
->>>>>>> section2
+    <div class="image">
+      <img id="bkgMain" src="images/mover.jpg" width="100%" height="auto" />
+    </div>
+    <header>
+      <div class="navbar">
+        <div class="logo1">moveMe</div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <div class="buttonSup">
+          <span>Sign up</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="message">
+      <div class="car"><i data-height="30px" class="fa-solid fa-bus"></i></div>
+      <div class="hero1">
+        <p>
+          Become a <br />
+          mover now
+        </p>
+        <div class="arr">
+          <a href="signup.html"
+            ><span
+              class="iconify"
+              data-width="70px"
+              data-icon="bi:arrow-right"
+              style="color: #f1f1f1"
+            ></span
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 2 -->
+    <section id="page2">
+      <div id="page2-1">
+        <h2 class="heading2">Request a mover now</h2>
+        <div class="btn">
+          <button id="pickupBtn"><p>Enter pickup location</p></button>
+          <button id="destinationBtn"><p>Enter destination</p></button>
+        </div>
+        <div class="request">
+          <div id="requestBtn" class="destination">
+            <p><span class="dot"></span>Request now</p>
+          </div>
+          <img src="images/move.jpg" alt="" />
+        </div>
+      </div>
+      <div id="pickupLocation" class="currentlocation">
+        <label for="pickup">Moving From*</label><br />
+        <input
+          type="text"
+          id="pickup"
+          placeholder="current location/zip-code"
+        /><br />
+        <button class="pickup1"><p>Submit</p></button>
+      </div>
+      <div id="destination" class="dest">
+        <label for="dropoff">Moving To*</label><br />
+        <input type="text" id="dropoff" placeholder="Destination" /><br />
+        <button class="dropoff1">Submit</button>
+      </div>
+      <div id="request" class="request-form">
+        <ul>
+          <li>
+            <label for="name">Name*</label><br />
+            <input type="text" id="name" placeholder="Full Name" />
+          </li>
+          <li>
+            <label for="pickup">Moving From*</label><br />
+            <input
+              type="text"
+              id="pickup"
+              placeholder="current location/zip-code"
+            />
+          </li>
+          <li>
+            <label for="dropoff">Moving To*</label><br />
+            <input type="text" id="dropoff" placeholder="Destination" />
+          </li>
+          <li>
+            <label for="property">Property type*</label><br />
+            <input
+              type="text"
+              id="property"
+              placeholder="house/office items..."
+            />
+          </li>
+          <li>
+            <label for="size">Size*</label><br />
+            <input type="text" id="size" placeholder="" />
+          </li>
+          <li>
+            <label for="date">Moving Date*</label><br />
+            <input type="text" id="date" placeholder="12/12/2022" />
+          </li>
+        </ul>
+        <button class="request1"><p>Request</p></button>
+      </div>
+    </section>
     <main>
-      <!-- PAGE 1 -->
-      <section id="page1">
-        <div class="links">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- PAGE 2 -->
-      <section id="page2">
-        <div id="page2-1">
-          <h2 class="heading2">Request a mover now</h2>
-          <div class="btn">
-            <button id="pickupBtn"><p>Enter pickup location</p></button>
-            <button id="destinationBtn"><p>Enter destination</p></button>
-          </div>
-          <div class="request">
-            <div id="requestBtn" class="destination">
-              <p><span class="dot"></span>Request now</p>
-            </div>
-            <img src="images/move.jpg" alt="" />
-          </div>
-        </div>
-        <div id="pickupLocation" class="currentlocation">
-          <label for="pickup">Moving From*</label><br />
-          <input
-            type="text"
-            id="pickup"
-            placeholder="current location/zip-code"
-          /><br />
-          <button class="pickup1"><p>Submit</p></button>
-        </div>
-        <div id="destination" class="dest">
-          <label for="dropoff">Moving To*</label><br />
-          <input type="text" id="dropoff" placeholder="Destination" /><br />
-          <button class="dropoff1">Submit</button>
-        </div>
-        <div id="request" class="request-form">
-          <ul>
-            <li>
-              <label for="name">Name*</label><br />
-              <input type="text" id="name" placeholder="Full Name" />
-            </li>
-            <li>
-              <label for="pickup">Moving From*</label><br />
-              <input
-                type="text"
-                id="pickup"
-                placeholder="current location/zip-code"
-              />
-            </li>
-            <li>
-              <label for="dropoff">Moving To*</label><br />
-              <input type="text" id="dropoff" placeholder="Destination" />
-            </li>
-            <li>
-              <label for="property">Property type*</label><br />
-              <input
-                type="text"
-                id="property"
-                placeholder="house/office items..."
-              />
-            </li>
-            <li>
-              <label for="size">Size*</label><br />
-              <input type="text" id="size" placeholder="" />
-            </li>
-            <li>
-              <label for="date">Moving Date*</label><br />
-              <input type="text" id="date" placeholder="12/12/2022" />
-            </li>
-          </ul>
-          <button class="request1"><p>Request</p></button>
-        </div>
-      </section>
-
-      <!-- PAGE3 -->
-      <section id="page3"></section>
-
-      <!-- PAGE 4 -->
-      <section id="page4"></section>
-
       <div class="download">
         <h3>The fast, convenient, and affordable way to move</h3>
         <div class="app">
@@ -168,6 +164,135 @@
           <p>Move out quickly in an easy and friendly manner.</p>
         </div>
       </div>
+      <section class="page3" id="page5">
+        <h1>Our Moving Agencies</h1>
+        <div class="box-outer-container">
+          <div class="box-inner-container">
+            <p>Keldy movers and storage</p>
+            <div class="location">
+              <img src="images/location.svg" class="lcotion" />
+              <p>Nairobi Kenya</p>
+            </div>
+            <div class="testimonial-box-container">
+              <div class="testimonial-box">
+                <div class="box-top">
+                  <div class="rating">
+                    <h3>Ratings</h3>
+                    <div class="reviews">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                  </div>
+                  <div class="profile">
+                    <div class="profile-image">
+                      <img class="pics" src="images/user1.jpeg" />
+                    </div>
+                    <div class="name-user">
+                      <h4>Felix Kimani, 5 January 2022</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="client-comments">
+                  <p>
+                    The house movers were very polite and efficient. No damages
+                    to any of <br />my things was done. MoveMe is the way to go
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movers-logo">
+            <img src="images/keldy.jpg" class="logos" />
+          </div>
+        </div>
+        <div class="box-outer-container">
+          <div class="box-inner-container">
+            <p>Starlink Movers</p>
+            <div class="location">
+              <img src="images/location.svg" class="lcotion" />
+              <p>Donholm Nairobi Kenya</p>
+            </div>
+            <div class="testimonial-box-container">
+              <div class="testimonial-box">
+                <div class="box-top">
+                  <div class="rating">
+                    <h3>Ratings</h3>
+                    <div class="reviews">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                  </div>
+                  <div class="profile">
+                    <div class="profile-image">
+                      <img class="pics" src="images/user2.jpg" />
+                    </div>
+                    <div class="name-user">
+                      <h4>Joan Otieno, 27 December 2021</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="client-comments">
+                  <p>
+                    The house movers were very polite and efficient. No damages
+                    to any of <br />my things was done. MoveMe is the way to go
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movers-logo">
+            <img src="images/starlink.jpg" class="logos" />
+          </div>
+        </div>
+        <div class="box-outer-container">
+          <div class="box-inner-container">
+            <p>Sifa Movers</p>
+            <div class="location">
+              <img src="images/location.svg" class="lcotion" />
+              <p>Ng'ong Road Nairobi</p>
+            </div>
+            <div class="testimonial-box-container">
+              <div class="testimonial-box">
+                <div class="box-top">
+                  <div class="rating">
+                    <h3>Ratings</h3>
+                    <div class="reviews">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                  </div>
+                  <div class="profile">
+                    <div class="profile-image">
+                      <img class="pics" src="images/user3.jpg" />
+                    </div>
+                    <div class="name-user">
+                      <h4>Derrick Arap, 12 January 2022</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="client-comments">
+                  <p>
+                    The house movers were very polite and efficient. No damages
+                    to any of <br />my things was done. MoveMe is the way to go
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movers-logo">
+            <img src="images/sifa.jpg" class="logos" />
+          </div>
+        </div>
+      </section>
       <section class="footer">
         <div class="upper-pose-footer">
           <div class="moveme">
