@@ -398,6 +398,10 @@ p {
   color: white;
 }
 
+#requestBtn {
+  cursor: pointer;
+}
+
 .dot {
   height: 15px;
   width: 15px;
@@ -430,6 +434,10 @@ p {
   text-decoration: none;
   color: black;
   font-size: 30px;
+}
+
+.request-form ul {
+  margin-left: 3rem;
 }
 
 .request-form ul li {
@@ -489,7 +497,7 @@ p {
   margin-left: 500px;
   background-color: #c4c4c4;
   width: 500px;
-  height: 200px;
+  height: 350px;
   padding-left: 60px;
 }
 .dropoff1 p {
@@ -514,18 +522,18 @@ button {
 /* pickup */
 .currentlocation {
   margin-top: 80px;
-  padding-top: 50px;
+  padding-top: 120px;
   margin-left: 500px;
   background-color: #c4c4c4;
   width: 500px;
-  height: 200px;
+  height: 350px;
   padding-left: 60px;
 }
 
 #pickup {
   margin-bottom: 15px;
   width: 400px;
-  height: 25px;
+  height: 35px;
 }
 .pickup1 p {
   text-decoration: none;
@@ -561,7 +569,7 @@ button {
 #dropoff {
   margin-bottom: 15px;
   width: 400px;
-  height: 25px;
+  height: 35px;
 }
 #property {
   margin-bottom: 15px;
@@ -621,12 +629,13 @@ button {
   justify-content: space-between;
   padding: 0 10%;
   margin-top: 5vh;
-  margin-bottom: 400px;
+  margin-bottom: 500px;
 }
 .page3 h1 {
   text-align: center;
   margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
+  font-size: 36px;
 }
 .profile-image {
   /* border-radius: 50%; */
