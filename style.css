@@ -358,20 +358,19 @@ p {
 }
 
 /* martin section 2 */
-button {
-  border-radius: 30px;
-  height: 50px;
-  width: 30vw;
-  background-color: #a0351d;
-  color: white;
-  /* -webkit-transition-duration: 0.3s; */
-  border: none;
+
+#page2 {
+  padding: 7% 0;
+}
+
+#page2-1 h2 {
+  margin-bottom: 2rem;
 }
 
 .btn button {
-  border-radius: 30px;
+  border-radius: 10px;
   height: 50px;
-  width: 25vw;
+  width: 50vw;
   background-color: #a0351d;
   color: white;
   /* -webkit-transition-duration: 0.3s; */
@@ -390,17 +389,13 @@ button {
 
 .btn {
   padding-left: 200px;
-  width: 25vw;
+  width: 60vw;
   display: flex;
   justify-content: space-between;
 }
 .btn p {
   text-decoration: none;
   color: white;
-}
-
-.btn:first-child {
-  margin-right: 100px;
 }
 
 .dot {
