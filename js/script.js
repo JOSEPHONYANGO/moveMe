@@ -11,6 +11,12 @@ $(document).ready(function () {
     $("#page2-1").css({ display: "none" });
     $("#request").css({ display: "block" });
   });
+  $(".back-btn").click(function () {
+    $("#pickupLocation").css({ display: "none" });
+    $("#destination").css({ display: "none" });
+    $("#request").css({ display: "none" });
+    $("#page2-1").css({ display: "block" });
+  });
   var myArray = [fname, lname, email, upass, pnumber, town];
   $("#btn1").click(function (event) {
     var fname = $("input[name='fname']").val();
