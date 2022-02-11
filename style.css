@@ -366,6 +366,7 @@ p {
   color: white;
   /* -webkit-transition-duration: 0.3s; */
   border: none;
+  cursor: pointer;
 }
 .move {
   display: flex;
@@ -602,6 +603,12 @@ button {
 .request1 p {
   text-decoration: none;
   color: white;
+}
+
+.back-btn {
+  color: #aa2d15;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* hiding divs */
