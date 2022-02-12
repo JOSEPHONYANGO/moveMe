@@ -1,6 +1,6 @@
 # moveMe
 ##### By Joseph Onyango 
-### Overview of the Quiz Board project
+### Overview of the moveMe project
 
 ## Description
 <p>This is an open source project that allowed six scrum members to create a website that provides mobility solutions to people with relocation needs. The website allows moves to signup on the platform whereby they are connected to people who need relocation services. The site provides a rating system that help maintain quality assurance of the product.</p>
